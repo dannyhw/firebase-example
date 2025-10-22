@@ -1,9 +1,11 @@
+```
 bunx create-expo-app@latest
 bunx expo install expo-dev-client
-bunx expo install @react-native-firebase/app
-bun run expo prebuild
+bunx expo install @react-native-firebase/app @react-native-firebase/auth @react-native-firebase/crashlytics
 
-bunx expo install @react-native-firebase/auth @react-native-firebase/crashlytics
+# Note once you have completed the steps below make sure to run bun run expo prebuild and then use run ios to build the app. (or use eas)
+# bun run expo prebuild
+```
 
 inside firebase console add a ios and android app and download the google-services.json and GoogleService-Info.plist
 
