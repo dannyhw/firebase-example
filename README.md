@@ -1,3 +1,5 @@
+To recreate this project:
+
 ```
 bunx create-expo-app@latest
 bunx expo install expo-dev-client
